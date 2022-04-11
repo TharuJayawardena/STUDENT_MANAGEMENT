@@ -1,19 +1,10 @@
 # STUDENT_MANAGEMENT
 
 ### Domain : student
-atrrinutes : StudentId, FirstName, LastName, Address, Gender, NIC, Email,Nationality
-             
-Contact NUmber:  StudentId,  ContactNo
+atrrinutes : StudentId, FirstName, LastName, Address, Gender, NIC, Email,Nationality         
 
-Add create student
-
-add telephone number
-
-
-
-Student Table
-`
-CREATE TABLE STUDENT (
+## Student Table
+` CREATE TABLE STUDENT (
             StudentId VARCHAR (5),
             FirstName VARCHAR  (20),
             LastName   VARCHAR  (20),
@@ -22,10 +13,7 @@ CREATE TABLE STUDENT (
             NIC   VARCHAR  (10),
             Email VARCHAR (30),
             Nationality VARCHAR  (20)
-            
-);
-
-`
+            ); `
 
 ## Please Use Below Connection Strings to Run This Program
 
